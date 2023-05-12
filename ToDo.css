@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400&display=swap');
+
+body {
+    margin: 0%;
+    padding: 0%;
+    text-align: left;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    background-color: rgb(255, 0, 162);
+    height: 12rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#top-input {
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid rgb(187, 187, 187);
+    width: 70%;
+}
+
+#button {
+    /* font-weight: 500; */
+    width: 20%;
+    padding: 0.7rem;
+    background-color: rgb(255, 0, 162);
+    color: white;
+    border-color: transparent;
+    border-radius: 0.5rem;
+}
+
+#input {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    width: 35rem;
+    border-radius: 0.5rem;
+    /* box-shadow: 0 0 20px #858585; */
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+    margin-top: -4rem;
+}
+
+/* shadows syntax: box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color]; */
+/* .task-list {???
+} */
+
+#headtask {
+    padding: 1rem;
+    border: 0.1rem solid rgb(187, 187, 187);
+    width: 35rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#headtask button {
+    width: 4rem;
+    padding: 0.7rem;
+    border: 0.1rem solid rgb(255, 0, 162);
+    background-color: transparent;
+    color: rgb(255, 0, 162);
+    border-radius: 0.7rem;
+}
+
+#bottom-input {
+    padding-left: 1rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid rgb(187, 187, 187);
+    width: 22rem;
+}
+
+.task {
+    padding: 1rem;
+    border: 0.1rem solid rgb(187, 187, 187);
+    width: 35rem;
+}
+
+label {
+    color: rgb(90, 90, 90);
+}
+
+.icons {
+    float: right;
+    color: rgb(255, 0, 162);
+}
+
+#button:hover {
+    background-color: rgb(210, 1, 133);
+}
+
+#headtask button:hover {
+    background-color: rgb(255, 0, 162);
+    color: white;
+}

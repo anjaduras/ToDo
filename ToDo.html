@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
+    <link rel="stylesheet" href="ToDo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>To Do!</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div id="input">
+            <h3>New Todo:</h3>
+            <form id="new-task-form">
+                <input type="text" name="new-task-input" id="top-input">
+                <input type="submit" id="button" value="Add">
+            </form>
+        </div>
+        <br>
+        <br>
+        <div class="task-list">
+            <div id="headtask">
+                <p>Edit:</p> <input type="text" id="bottom-input" placeholder="Wash the dishes..">
+                <button> <b>Save</b></button>
+            </div>
+            <div class="task">
+                <input type="checkbox" id="horns" name="horns">
+                <label for="horns">Clean my room</label>
+                <div class="icons">
+                    <i class="fa fa-pencil" aria-hidden="true" style="font-size:25px;"></i>
+                    <i class="fa fa-trash-o" aria-hidden="true" style="font-size:25px;"></i>
+                </div>
+            </div>
+            <div class="task">
+                <input type="checkbox" id="horns" name="horns">
+                <label for="horns">Call parents</label>
+                <div class="icons">
+                    <i class="fa fa-pencil" aria-hidden="true" style="font-size:25px;"></i>
+                    <i class="fa fa-trash-o" aria-hidden="true" style="font-size:25px;"></i>
+                </div>
+            </div>
+            <div class="task">
+                <input type="checkbox" id="horns" name="horns">
+                <label for="horns">Finish editing the video</label>
+                <div class="icons">
+                    <i class="fa fa-pencil" aria-hidden="true" style="font-size:25px;"></i>
+                    <i class="fa fa-trash-o" aria-hidden="true" style="font-size:25px;"></i>
+                </div>
+
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
