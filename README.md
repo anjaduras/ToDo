@@ -8,4 +8,5 @@ I also emphasize I wrote the CSS code in rem and there is practically no media-q
 
 # 10\06\2023
 
-Finally added the functionality with js code! havent touched css though 
+Finally added the functionality with js code! 
+havent touched css though 
